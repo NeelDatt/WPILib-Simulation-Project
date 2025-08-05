@@ -4,7 +4,7 @@ Drivetrain: The Drivetrain Subsystem initializes two PWM Spark Max motors and a 
 
 Simulation: In the Robot.java file, you will find the code for the robot simulation. It uses SmartDashboard and Field2d to track and update the simulated robot’s location on the field. First, the robot moves in straight lines and does turns. Then, it uses trigonometry to move in the direction it’s facing as it turns, resulting in curves. 
     
-How to Simulate: To simulate the robot for yourself, follow the instructions in this video: https://drive.google.com/file/d/1w9pmUIB4bsZaNh3z8dmUjfJ7mN5LtGsK/view?usp=sharing
+How to Simulate: To simulate the robot for in VSCode yourself, make sure you have WPILib installed and follow the instructions in this video: https://drive.google.com/file/d/1w9pmUIB4bsZaNh3z8dmUjfJ7mN5LtGsK/view?usp=sharing
 
 In the future, I plan to expand the drivetrain to integrate PathPlanner. There is a Pathplanner folder in src/main/deploy/pathplanner. It has paths and an auto, but can’t be used until the drivetrain is more developed. 
 
